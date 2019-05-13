@@ -7,7 +7,7 @@ package model;
 
 /**
  *
- * @author admin
+ * @author Lenovo
  */
 public class SearchingResult implements Comparable<SearchingResult> {
 
