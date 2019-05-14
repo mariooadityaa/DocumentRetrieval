@@ -3,15 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package model;
+package Model;
 
 import java.util.ArrayList;
 
 /**
  *
- * @author admin
+ * @author ASUS
  */
-public class Term implements Comparable<Term>{
+public class Term implements Comparable<Term> {
+
     private String term;
     private ArrayList<Posting> postingList = new ArrayList<Posting>();
 
@@ -19,33 +20,22 @@ public class Term implements Comparable<Term>{
         this.term = term;
     }
 
-    public int getNumberOfDocument(){
+    public int getNumberOfDocument() {
         return postingList.size();
     }
-    /**
-     * @return the term
-     */
+
     public String getTerm() {
         return term;
     }
 
-    /**
-     * @param term the term to set
-     */
     public void setTerm(String term) {
         this.term = term;
     }
 
-    /**
-     * @return the postingList
-     */
     public ArrayList<Posting> getPostingList() {
         return postingList;
     }
 
-    /**
-     * @param postingList the postingList to set
-     */
     public void setPostingList(ArrayList<Posting> postingList) {
         this.postingList = postingList;
     }
@@ -55,6 +45,4 @@ public class Term implements Comparable<Term>{
         return term.compareToIgnoreCase(o.getTerm());
     }
 
-    
-    
 }

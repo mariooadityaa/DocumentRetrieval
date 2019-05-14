@@ -2,6 +2,15 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/Adres/OneDrive/Documents/Mario/hahaha/SearchEngine/SearchEngine/src/Model/Document.java</file>
+            <file>file:/C:/Users/Adres/OneDrive/Documents/Mario/hahaha/SearchEngine/SearchEngine/src/Model/Posting.java</file>
+            <file>file:/C:/Users/Adres/OneDrive/Documents/Mario/hahaha/SearchEngine/SearchEngine/src/View/CariBerita.java</file>
+            <file>file:/C:/Users/Adres/OneDrive/Documents/Mario/hahaha/SearchEngine/SearchEngine/src/View/TambahAyat.java</file>
+            <file>file:/C:/Users/Adres/OneDrive/Documents/Mario/hahaha/SearchEngine/SearchEngine/src/Model/SearchingResult.java</file>
+            <file>file:/C:/Users/Adres/OneDrive/Documents/Mario/hahaha/SearchEngine/SearchEngine/src/View/Home.java</file>
+            <file>file:/C:/Users/Adres/OneDrive/Documents/Mario/hahaha/SearchEngine/SearchEngine/src/Testing/TestBacaDirectory.java</file>
+            <file>file:/C:/Users/Adres/OneDrive/Documents/Mario/hahaha/SearchEngine/SearchEngine/src/Model/InvertedIndex.java</file>
+        </group>
     </open-files>
 </project-private>

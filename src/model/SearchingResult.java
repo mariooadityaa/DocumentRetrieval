@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package model;
+package Model;
 
 /**
  *
- * @author Lenovo
+ * @author ASUS
  */
 public class SearchingResult implements Comparable<SearchingResult> {
 
-    public static final int FAKTOR = 1000;
+    public static final int FAKTOR = 1000; // faktor pengali similarity
     private double similarity;
     private Document document;
 
@@ -20,18 +20,30 @@ public class SearchingResult implements Comparable<SearchingResult> {
         this.document = document;
     }
 
+    /**
+     * @return the similarity
+     */
     public double getSimilarity() {
         return similarity;
     }
 
+    /**
+     * @param similarity the similarity to set
+     */
     public void setSimilarity(double similarity) {
         this.similarity = similarity;
     }
 
+    /**
+     * @return the document
+     */
     public Document getDocument() {
         return document;
     }
 
+    /**
+     * @param document the document to set
+     */
     public void setDocument(Document document) {
         this.document = document;
     }
@@ -40,4 +52,5 @@ public class SearchingResult implements Comparable<SearchingResult> {
     public int compareTo(SearchingResult result) {
         return Double.compare(similarity, result.getSimilarity());
     }
+
 }
